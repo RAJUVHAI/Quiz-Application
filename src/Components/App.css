@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(
+    to right,
+    rgb(98, 0, 255),
+    rgba(52, 46, 233, 0.835)
+  );
+  color: aliceblue;
+  font-size: large;
+}
