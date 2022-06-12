@@ -53,13 +53,17 @@ export default function Quize() {
       setShowScore(true);
     }
   };
+  const reset = () => {
+    window.location.reload();
+  };
 
   return (
     <div className="ResultContainer">
       {showScore ? (
         <div>
           {" "}
-          Your scored {score} out of {questions.length}{" "}
+          Your scored {score} out of {questions.length}
+          <br></br> <button onClick={reset}>Reset</button>
         </div>
       ) : (
         <div className="MainContainer">
